@@ -11,7 +11,6 @@ public class PredicateBasicOperations1 {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 10, 12, 14, 112, 13, 113, 119);
         System.out.println("Even Numbers");
         numbers.stream().filter(number -> number % 2 == 0).forEach(System.out::println);
-
     }
 
 
