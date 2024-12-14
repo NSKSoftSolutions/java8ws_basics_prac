@@ -1,6 +1,5 @@
 package supplieroperations;
 
-import sun.text.resources.uk.JavaTimeSupplementary_uk;
 
 import java.util.function.Supplier;
 
