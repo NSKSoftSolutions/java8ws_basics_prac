@@ -1,4 +1,4 @@
-package org.example.methods;
+package org.example.services;
 
 public class CharAtMethodPracticeExample1 {
 
