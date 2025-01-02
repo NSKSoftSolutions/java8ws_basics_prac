@@ -7,6 +7,18 @@ public class Person {
     private int age;
     private String email;
 
+    public Person() {
+        System.out.println("Person Object is created");
+    }
+
+    //adding param const
+    public Person(int id, String name, int age, String email) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.email = email;
+    }
+
     public int getId() {
         return id;
     }
@@ -50,7 +62,7 @@ public class Person {
         }
         Person person = (Person) obj;
         if (person.getName() == this.name) {
-            System.out.println("Two are Objects Having same Name");
+            System.out.println("Two Objects are Having same Name");
             return true;
         } else {
             System.out.println("Objects are not equal");
